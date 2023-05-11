@@ -27,8 +27,9 @@ a,
 a:link,
 a:visited {
 	/* color: inherit; */
+	color:white;
 	text-decoration: none;
-	/* display: inline-block; */
+	display: inline-block;
 }
 
 a:hover {
