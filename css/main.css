@@ -44,10 +44,17 @@ body {
 	top: 0;
 	width: 100%;
 	padding-top: 44px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	transition: .4s ease-in-out;
+	z-index: 5;
+}
+
+.header__nav--active {
 	/* background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%),
-			#204434; */
-	z-index: 2;
+				#204434; */
+	transition: .4s ease-in-out;
+	background: #204434;
+	padding-top: 20px;
 }
 
 .header__nav-wrap {
@@ -373,6 +380,7 @@ body {
 
 .reviews__row {
 	display: flex;
+	flex-wrap: wrap;
 	column-gap: 68px;
 }
 
@@ -578,3 +586,9 @@ body {
 	color: #FF7C4E;
 }
 /* Footer styles end */
+
+/* 1262px */
+/* 1060px */
+/* 991px */
+/* 767px */
+/* 575px */
